@@ -20,7 +20,7 @@ Configure and audit the advanced security capabilities of the Windows Defender F
 1. Log into `ET-DC01` as the built-in Administrator.
 2. Open the Run dialog (`Win + R`), type **`wf.msc`**, and press **Enter** to open the **Windows Defender Firewall with Advanced Security** console.
 3. Click on the root folder in the left pane and verify that the Domain, Private, and Public profiles are all actively set to **On**.
-   > 📸 **SCREENSHOT #1:** Capture the main Firewall Advanced Security dashboard showing all profiles active. (Save as `01-firewall-baseline.png`)
+
 
 ### Phase 2: Restricting Network Discovery (Blocking ICMP)
 1. In the left-hand column, right-click **Inbound Rules** and select **New Rule...**.
@@ -36,7 +36,7 @@ Configure and audit the advanced security capabilities of the Windows Defender F
 ### Phase 3: Rule Verification & Testing
 1. Select **Inbound Rules** in the left pane and locate your new `BLOCK-ICMP-PING` rule at the top of the middle list.
 2. Ensure the rule displays a distinct red stop-sign icon, confirming an active drop policy.
-   > 📸 **SCREENSHOT #2:** Capture the Inbound Rules pane highlighting the new active `BLOCK-ICMP-PING` rule properties. (Save as `02-firewall-rule-verification.png`)
+
 
 ---
 
