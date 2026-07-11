@@ -13,7 +13,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 
 #### 📸 Verification Proof
 *Post-Installation Metrics:*
-![Server 2022 Deployment](Screenshots/lab-1-verification.png)
+![Server 2022 Deployment](Screenshots/03-installation-success.png)
 
 ---
 
@@ -24,7 +24,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 
 #### 📸 Verification Proof
 *Local IAM Configuration:*
-![Local User Management](Screenshots/lab-2-verification.png)
+![Local User Management](Screenshots/03-user-verification.png)
 
 ---
 
@@ -35,7 +35,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 
 #### 📸 Verification Proof
 *Security Audit Logs:*
-![Event Viewer Auditing](Screenshots/lab-3-verification.png)
+![Event Viewer Auditing](Screenshots/02-failed-logon-audit.png)
 
 ---
 
@@ -46,7 +46,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 
 #### 📸 Verification Proof
 *Advanced Security Rules:*
-![Windows Firewall Rules](Screenshots/lab-4-verification.png)
+![Windows Firewall Rules](Screenshots/02-firewall-rule-verification.png)
 
 ---
 
