@@ -24,7 +24,7 @@ Navigate the Windows Event Viewer console on a Windows Server 2022 instance to a
 
 ### Phase 2: Simulating an Adverse Security Event (Failed Logon)
 1. Intentionally lock your Windows Server session (`Win + L`).
-2. Click the screen to bring up the login prompt, select **Other User**, and type a fictitious username (e.g., `attacker` or `malicious_user`).
+2. Click the screen to bring up the login prompt, select **Other User**, and type a fictitious username (e.g., `jdoe` or `Administrator`).
 3. Type an incorrect password and press **Enter** to trigger an explicit authentication failure. Do this twice.
 4. Log back into the server using your valid `Administrator` credentials.
 
