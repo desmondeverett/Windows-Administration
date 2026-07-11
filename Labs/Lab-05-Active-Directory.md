@@ -16,13 +16,12 @@ Install the Active Directory Domain Services (AD DS) role on ET-DC01 and promote
 ## Implementation Steps
 
 ### Phase 1: Installing the AD DS Role
-1. Log into `ET-DC01` as the local Administrator.
+1. Log into ET-DC01 as the local Administrator.
 2. Open **Server Manager** (it usually launches automatically on startup).
 3. On the main dashboard, click **Add roles and features**.
 4. Click **Next** until you reach the **Server Roles** page.
 5. Check the box for **Active Directory Domain Services**. A pop-up will appear; click **Add Features**, then click **Next**.
-6. Click **Next** through the remaining screens and hit **Install**. 
-   > 📸 **SCREENSHOT #1:** Capture the Installation Progress screen showing the AD DS role actively installing. (Save as `01-adds-role-install.png`)
+6. Click **Next** through the remaining screens and hit **Install**.
 
 ### Phase 2: Promoting to a Domain Controller
 1. Once the role installation succeeds, click the **Flag icon** (Notifications) at the top of Server Manager.
@@ -37,8 +36,7 @@ Install the Active Directory Domain Services (AD DS) role on ET-DC01 and promote
 1. After the reboot, the login screen will look different. It should now say **`EVERETT\Administrator`**. Log in.
 2. Press `Win + R`, type **`dsa.msc`**, and hit Enter to open **Active Directory Users and Computers**.
 3. Expand `everett.local` on the left and click on the **Domain Controllers** folder.
-4. Verify that `ET-DC01` is listed in the center pane.
-   > 📸 **SCREENSHOT #2:** Capture the ADUC console showing ET-DC01 successfully registered as a Domain Controller. (Save as `02-aduc-verification.png`)
+4. Verify that ET-DC01 is listed in the center pane.
 
 ---
 
@@ -51,6 +49,7 @@ Successfully provisioned the root forest `everett.local` by installing the AD DS
 - **Directory Verification:** Gained hands-on experience using the Active Directory Users and Computers (ADUC) MMC snap-in to verify domain architecture and validate the Domain Controller's operational status within the forest.
 
 ## Screenshots
+
 #### 1. AD DS Role Installation
 ![AD DS Install](../Screenshots/01-adds-role-install.png)
 
