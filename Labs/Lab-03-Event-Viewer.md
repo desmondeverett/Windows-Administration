@@ -33,7 +33,7 @@ Navigate the Windows Event Viewer console on a Windows Server 2022 instance to a
 2. Click **Filter Current Log...** in the right-hand Actions pane.
 3. In the "All Event IDs" box, type **`4625`** (The standard Windows Event ID for an explicit account logon failure). Click **OK**.
 4. Double-click the top failure event in the filtered list to open its detailed properties.
-   > 📸 **SCREENSHOT #2:** Capture the Event Properties window showing the specific details of Event ID 4625, making sure the target username (`attacker`) and logon type are visible. (Save as `02-failed-logon-audit.png`)
+   > 📸 **SCREENSHOT #2:** Capture the Event Properties window showing the specific details of Event ID 4625, making sure the target username (`jdoe`) and logon type are visible. (Save as `02-failed-logon-audit.png`)
 
 ---
 
