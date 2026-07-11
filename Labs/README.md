@@ -1,32 +1,34 @@
-# Lab 1: Windows Server 2022 Deployment & Post-Installation
+# 💻 Windows Server 2022 & Active Directory Administration Sandbox
 
-## 🎯 Objective
-By the end of this lab, you will be able to provision a virtual machine in VirtualBox, install Windows Server 2022 (Desktop Experience), and configure baseline system metrics.
+Welcome to my enterprise Windows Administration laboratory. This repository serves as an open-source, hands-on instructional guide and implementation portfolio for deploying, managing, and securing a Windows Server 2022 infrastructure. 
 
-## 🛠️ Prerequisites & Tools
-* Oracle VirtualBox (Latest Version)
-* Windows Server 2022 ISO (Evaluation Edition)
+Whether you are a recruiter auditing my technical skills or a student looking to replicate these environments step-by-step, this documentation provides full visibility into enterprise administration baselines.
 
 ---
 
-## 📝 Step-by-Step Instructions
-
-### Step 1: Create the Virtual Machine Container
-1. Open VirtualBox and click **New**.
-2. Name the VM `ET-DC01` and set the Type to **Microsoft Windows**, Version to **Windows Server 2022 (64-bit)**.
-3. Allocate at least **4096 MB (4GB) of RAM** and **2 Processors**.
-
-*Your configuration screen should match the summary below:*
-![VirtualBox Environment Summary](../Screenshots/01-vm-summary.png)
-
-### Step 2: Operating System Installation
-1. Start the VM and select your Windows Server 2022 ISO.
-2. When prompted, choose **Windows Server 2022 Standard Evaluation (Desktop Experience)**. *Do not choose the Server Core option unless you intend to use CLI only.*
-3. Follow the prompts to format the unallocated drive space and begin installation.
-
-![Installation Success](../Screenshots/03-installation-success.png)
+## 🏗️ Core Laboratory Architecture
+* **Host Hypervisor:** Oracle VirtualBox
+* **Operating System:** Windows Server 2022 Standard Evaluation (Desktop Experience)
+* **Target Domain Deployment:** `ET-DC01` (Enterprise Topology Domain Controller)
 
 ---
 
-## 🎓 Student Checkpoint & Deliverables
-To verify your lab is complete, take a screenshot of your **Server Manager Dashboard** showing your computer name (`ET-DC01`) and upload it to the assignment portal.
+## 🧭 Laboratory Index & Execution Milestones
+
+### 🟢 [Lab 1: Windows Server 2022 Deployment & Post-Installation](./Labs/Lab-01-Installing-Windows-Server.md)
+* **The Blueprint:** Provisioning virtual hardware containers and executing clean OS baselines.
+* **Key Skills Demonstrated:** Hypervisor hardware allocation (RAM/vCPU optimization), evaluation ISO deployment, and initial system metrics auditing.
+
+### 🟢 [Lab 2: Local User Management & Security Groups](./Labs/Lab-02-Local-User-Management.md)
+* **The Blueprint:** Identity and Access Management (IAM) applying the principle of least privilege.
+* **Key Skills Demonstrated:** Provisioning local administrator and standard accounts via `lusrmgr.msc`, security group nesting, and PowerShell user auditing (`Get-LocalGroupMember`).
+
+### 🟢 [Lab 3: Event Viewer & Proactive System Auditing](./Labs/Lab-03-Event-Viewer.md)
+* **The Blueprint:** Analyzing system logging logs to diagnose anomalies and audit infrastructure security.
+* **Key Skills Demonstrated:** Event log filtering (`eventvwr.msc`), isolating system/application errors, and setting local security policies to track failed logon attempts.
+
+### 🟢 [Lab 4: Windows Firewall with Advanced Security](./Labs/Lab-04-Windows-Firewall.md)
+* **The Blueprint:** Implementing host-based perimeter defense and granular network traffic control.
+* **Key Skills Demonstrated:** Evaluating default inbound/outbound connection rules, establishing custom protocol filters, and verifying active packet blocks.
+
+### 🔵
