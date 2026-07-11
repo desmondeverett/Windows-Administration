@@ -43,10 +43,12 @@ Install the Active Directory Domain Services (AD DS) role on ET-DC01 and promote
 ---
 
 ## Outcome
-(To be completed after execution.)
+Successfully provisioned the root forest `everett.local` by installing the AD DS role and promoting `ET-DC01` to a primary Domain Controller. This centralized identity management, replacing the local SAM database with a scalable Active Directory domain, enabling centralized authentication and Group Policy management for Everett Technologies.
 
 ## Lessons Learned
-(To be completed after execution.)
+- **Local vs. Domain Authentication:** Understood the fundamental shift that occurs post-promotion. The local Security Account Manager (SAM) database is disabled, and the server now relies entirely on Active Directory for Identity and Access Management (IAM).
+- **DNS Interdependency:** Recognized that Active Directory is strictly dependent on DNS. During promotion, the Domain Controller automatically integrated DNS services to resolve domain queries for the `everett.local` namespace.
+- **Directory Verification:** Gained hands-on experience using the Active Directory Users and Computers (ADUC) MMC snap-in to verify domain architecture and validate the Domain Controller's operational status within the forest.
 
 ## Screenshots
 #### 1. AD DS Role Installation
