@@ -11,25 +11,53 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 - **Documentation:** [View Lab 1 Details & Configurations](Labs/Lab-01-Installing-Windows-Server.md)
 - **Description:** Provisioned virtual hardware containers using Oracle VirtualBox, executed a custom Desktop Experience OS installation, and verified post-installation system metrics for an enterprise domain environment.
 
+#### 📸 Verification Proof
+*Post-Installation Metrics:*
+![Server 2022 Deployment](Screenshots/lab-1-verification.png)
+
+---
+
 ### 🛑 Lab 2: Local User Management
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 2 Details & Configurations](Labs/Lab-02-Local-User-Management.md)
 - **Description:** Managed local users, administrative groups, and folder permissions using standard Windows utility consoles and PowerShell prior to domain promotion.
+
+#### 📸 Verification Proof
+*Local IAM Configuration:*
+![Local User Management](Screenshots/lab-2-verification.png)
+
+---
 
 ### 🛑 Lab 3: Event Viewer & Security Auditing
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 3 Details & Configurations](Labs/Lab-03-Event-Viewer.md)
 - **Description:** Navigated system, application, and security logs to identify errors, audit failures, and troubleshoot system anomalies.
 
+#### 📸 Verification Proof
+*Security Audit Logs:*
+![Event Viewer Auditing](Screenshots/lab-3-verification.png)
+
+---
+
 ### 🛑 Lab 4: Windows Firewall
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 4 Details & Configurations](Labs/Lab-04-Windows-Firewall.md)
 - **Description:** Established advanced inbound and outbound security rules to explicitly control network traffic flow and secure edge boundaries.
 
+#### 📸 Verification Proof
+*Advanced Security Rules:*
+![Windows Firewall Rules](Screenshots/lab-4-verification.png)
+
+---
+
 ### 🛑 Lab 5: Active Directory Domain Services (AD DS) Deployment
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 5 Details & Configurations](Labs/Lab-05-Active-Directory.md)
 - **Description:** Installed the AD DS role and promoted the server to a primary Domain Controller, replacing the local SAM database and establishing the centralized root forest identity for Everett Technologies.
+
+#### 📸 Verification Proof
+*Domain Controller Verification (ADUC):*
+![ADUC Verification](Screenshots/02-aduc-verification.png)
 
 ---
 
