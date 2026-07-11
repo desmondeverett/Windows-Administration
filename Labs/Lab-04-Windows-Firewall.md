@@ -41,10 +41,12 @@ Configure and audit the advanced security capabilities of the Windows Defender F
 ---
 
 ## Outcome
-(To be completed after execution.)
+Successfully audited and configured the Windows Defender Firewall with Advanced Security on ET-DC01. Verified the active state of Domain, Private, and Public profiles to establish a secure baseline. Engineered and deployed a custom inbound rule (`BLOCK-ICMP-PING`) to explicitly drop all ICMPv4 Echo Requests, effectively mitigating basic network discovery and host enumeration scanning from external nodes.
 
 ## Lessons Learned
-(To be completed after execution.)
+- **Host-Level Perimeter Defense:** Reinforced the understanding that while network firewalls provide perimeter security, host-based firewalls are critical for defense-in-depth, especially against lateral movement and internal threats.
+- **Explicit Block vs. Default Deny:** Demonstrated how an explicit block rule immediately drops specified traffic (ICMP) regardless of other permissive rules, securing the endpoint against targeted reconnaissance.
+- **Protocol-Specific Targeting:** Gained hands-on experience in isolating specific protocols (ICMPv4) to reduce the attack surface without disrupting general application traffic or critical services.
 
 ## Screenshots
 #### 1. Windows Defender Firewall Active Profiles
