@@ -20,3 +20,23 @@
 2. Log into the server using `Input > Keyboard > Insert Ctrl-Alt-Del`.
 3. Open **Server Manager**, click on **Local Server**, and verify the computer name.
    > 📸 **SCREENSHOT #3:** Capture the full desktop view showing the Server Manager dashboard and the System Properties displaying the hostname `ET-DC01`. (Save as `03-installation-success.png`)
+   >
+   > ## Outcome
+
+The installation of Windows Server 2022 (Desktop Experience) was completed successfully. The virtual machine booted into the operating system environment, and initial post-installation configurations were executed, including verifying internet connectivity and securing the built-in Administrator account.
+
+## Lessons Learned
+
+* **Hypervisor Resource Planning:** Confirmed that allocating 4 GB of RAM and 2 vCPUs provides a stable environment for the Desktop Experience GUI without degrading the performance of the host HP Victus system.
+* **Storage Allocation Strategy:** Utilizing a dynamically allocated disk ensures that the host machine's physical storage is optimized, consuming space only as data is added to the guest OS.
+
+## Screenshots
+
+#### 1. Virtual Machine Hardware Summary
+![VirtualBox VM Summary](../Screenshots/01-vm-summary.png)
+
+#### 2. Operating System Selection (Desktop Experience)
+![Windows Server OS Selection](../Screenshots/02-os-selection.png)
+
+#### 3. Successful Installation and First Boot
+![Windows Server Success](../Screenshots/03-installation-success.png)
