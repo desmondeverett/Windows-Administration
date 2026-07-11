@@ -21,7 +21,7 @@
 3. Open **Server Manager**, click on **Local Server**, and verify the computer name.
    > 📸 **SCREENSHOT #3:** Capture the full desktop view showing the Server Manager dashboard and the System Properties displaying the hostname `ET-DC01`. (Save as `03-installation-success.png`)
    >
-   > ## Outcome
+## Outcome
 
 The installation of Windows Server 2022 (Desktop Experience) was completed successfully. The virtual machine booted into the operating system environment, and initial post-installation configurations were executed, including verifying internet connectivity and securing the built-in Administrator account.
 
