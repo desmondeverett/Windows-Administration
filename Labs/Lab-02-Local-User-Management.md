@@ -41,10 +41,12 @@ Configure and manage local user accounts, administrative groups, and security pe
 ---
 
 ## Outcome
-(To be completed after execution.)
+Successfully provisioned a secure local access framework on ET-DC01. By segregating administrative access into a dedicated security group (IT-Admins) and stripping inherited permissions from the 'CompanyData' folder, access control was strictly verified. Logging in as the standard user 'jdoe' confirmed that group-based permissions effectively map read/write rights without over-privileging accounts.
 
 ## Lessons Learned
-(To be completed after execution.)
+- **Order of Operations Matters:** Learned that Windows security mechanisms require the target object (user or group) to exist entirely in the system's identity management database before permissions can be evaluated or assigned at the file system level.
+- **Inheritance Traps:** Discovered that disabling permission inheritance is a critical step when building secure repositories; otherwise, default wide-open administrative and system permissions persist implicitly.
+- **Explicit Access Control:** Practiced the principle of least privilege by ensuring standard users retain only read access, while IT administrators hold full folder authority.
 
 ## Screenshots
 #### 1. Custom Local Group & User Membership
