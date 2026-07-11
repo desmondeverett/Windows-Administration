@@ -20,7 +20,7 @@ Navigate the Windows Event Viewer console on a Windows Server 2022 instance to a
 1. Log into `ET-DC01` as the built-in Administrator.
 2. Open the Run dialog (`Win + R`), type **`eventvwr.msc`**, and press **Enter** to launch the Event Viewer.
 3. Expand **Windows Logs** in the left-hand console and review the total event counts for **Application**, **Security**, and **System** logs.
-   > 📸 **SCREENSHOT #1:** Capture the Event Viewer console with the 'Security' log highlighted, showing the general list of audit events. (Save as `01-event-viewer-baseline.png`)
+
 
 ### Phase 2: Simulating an Adverse Security Event (Failed Logon)
 1. Intentionally lock your Windows Server session (`Win + L`).
@@ -33,7 +33,7 @@ Navigate the Windows Event Viewer console on a Windows Server 2022 instance to a
 2. Click **Filter Current Log...** in the right-hand Actions pane.
 3. In the "All Event IDs" box, type **`4625`** (The standard Windows Event ID for an explicit account logon failure). Click **OK**.
 4. Double-click the top failure event in the filtered list to open its detailed properties.
-   > 📸 **SCREENSHOT #2:** Capture the Event Properties window showing the specific details of Event ID 4625, making sure the target username (`jdoe`) and logon type are visible. (Save as `02-failed-logon-audit.png`)
+
 
 ---
 
