@@ -22,7 +22,7 @@ Configure and manage local user accounts, administrative groups, and security pe
 3. Right-click **Users** and select **New User**. Create a user account (e.g., `jdoe` for John Doe) with a secure password.
 4. Right-click **Groups** and select **New Group**. Name the group `IT-Admins`.
 5. Add the newly created user account as a member of the `IT-Admins` group.
-   > 📸 **SCREENSHOT #1:** Capture the properties window of the `IT-Admins` group showing your new user listed as a member. (Save as `01-group-membership.png`)
+
 
 ### Phase 2: Folder Provisioning & NTFS Permissions
 1. Open File Explorer and create a folder on the root of the C:\ drive named `CompanyData`.
@@ -30,13 +30,13 @@ Configure and manage local user accounts, administrative groups, and security pe
 3. Click **Advanced** to modify the Access Control Lists (ACLs).
 4. Disable inheritance and remove all pre-existing permissions to ensure a clean slate.
 5. Add explicit **Full Control** permissions for the `IT-Admins` group, and **Read/Execute** permissions for `Authenticated Users`.
-   > 📸 **SCREENSHOT #2:** Capture the Advanced Security Settings window showing the clean, explicit permission entries for your custom group. (Save as `02-ntfs-permissions.png`)
+
 
 ### Phase 3: Verification & Testing
 1. Sign out of the Administrator account.
 2. Log into the server using the new standard user account credentials.
 3. Attempt to access the `CompanyData` folder to verify read/write access.
-   > 📸 **SCREENSHOT #3:** Capture the desktop view showing the successful login session under the new user account profile alongside an open, accessible `CompanyData` folder view. (Save as `03-user-verification.png`)
+
 
 ---
 
