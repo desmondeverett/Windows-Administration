@@ -38,7 +38,7 @@ Navigate the Windows Event Viewer console on a Windows Server 2022 instance to a
 ---
 
 ## Outcome
-Successfully audited and evaluated the Windows Event Logging architecture on ET-DC01. By deliberately injecting simulated authentication failures (`attacker` account unauthorized login attempts), the system's defensive logging mechanisms were triggered. Utilizing the Event Viewer filtering capability, Event ID 4625 (Logon Failure) was isolated, capturing critical forensic metrics including the target account name, failure reason, and logon type.
+Successfully audited and evaluated the Windows Event Logging architecture on ET-DC01. By deliberately injecting simulated authentication failures (`jdoe` account unauthorized login attempts), the system's defensive logging mechanisms were triggered. Utilizing the Event Viewer filtering capability, Event ID 4625 (Logon Failure) was isolated, capturing critical forensic metrics including the target account name, failure reason, and logon type.
 
 ## Lessons Learned
 - **Event ID Familiarity:** Developed hands-on experience identifying standard Windows security event codes, recognizing that Event ID 4625 serves as a primary indicator of unauthorized access attempts or brute-force tracking.
