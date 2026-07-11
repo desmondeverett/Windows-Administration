@@ -1,6 +1,6 @@
 # Windows-Administration
 
-Enterprise systems administration portfolio featuring Windows Server 2022 deployments, local and domain identity management (AD DS), security auditing, and advanced firewall configurations.
+Enterprise systems administration portfolio featuring Windows Server 2022 deployments, local and domain identity management (AD DS), security auditing, and advanced firewall configurations for the simulated **Everett Technologies** corporate infrastructure.
 
 ---
 
@@ -9,7 +9,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 ### 🛑 Lab 1: Windows Server 2022 Deployment
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 1 Details & Configurations](Labs/Lab-01-Installing-Windows-Server.md)
-- **Description:** Provisioned virtual hardware containers using Oracle VirtualBox, executed a custom Desktop Experience OS installation, and verified post-installation system metrics for an enterprise domain environment.
+- **Description:** Provisioned virtual hardware containers using Oracle VirtualBox, executed a custom Desktop Experience OS installation, and verified post-installation system metrics to serve as the foundational server for Everett Technologies.
 
 #### 📸 Verification Proof
 *Post-Installation Metrics:*
@@ -20,7 +20,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 ### 🛑 Lab 2: Local User Management
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 2 Details & Configurations](Labs/Lab-02-Local-User-Management.md)
-- **Description:** Managed local users, administrative groups, and folder permissions using standard Windows utility consoles and PowerShell prior to domain promotion.
+- **Description:** Managed local users, administrative groups, and folder permissions using standard Windows utility consoles and PowerShell prior to the Everett Technologies domain promotion.
 
 #### 📸 Verification Proof
 *Local IAM Configuration:*
@@ -31,7 +31,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 ### 🛑 Lab 3: Event Viewer & Security Auditing
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 3 Details & Configurations](Labs/Lab-03-Event-Viewer.md)
-- **Description:** Navigated system, application, and security logs to identify errors, audit failures, and troubleshoot system anomalies.
+- **Description:** Navigated system, application, and security logs to identify errors, audit failures, and troubleshoot system anomalies within the enterprise environment.
 
 #### 📸 Verification Proof
 *Security Audit Logs:*
@@ -42,7 +42,7 @@ Enterprise systems administration portfolio featuring Windows Server 2022 deploy
 ### 🛑 Lab 4: Windows Firewall
 - **Status:** ✅ Complete
 - **Documentation:** [View Lab 4 Details & Configurations](Labs/Lab-04-Windows-Firewall.md)
-- **Description:** Established advanced inbound and outbound security rules to explicitly control network traffic flow and secure edge boundaries.
+- **Description:** Established advanced inbound and outbound security rules to explicitly control network traffic flow, block unauthorized ICMP reconnaissance, and secure the edge boundaries of the Everett Technologies corporate network.
 
 #### 📸 Verification Proof
 *Advanced Security Rules:*
