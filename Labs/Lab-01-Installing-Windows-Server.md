@@ -1,7 +1,3 @@
-**THIS LAB IS INTENDED AS A STEP-BY-STEP GUIDE TO THOSE WHO ARE NEW TO MAKING A GITHUB REPOSITORY**
----
-
-
 ## Installation Steps
 
 ### Phase 1: Virtual Machine Creation
